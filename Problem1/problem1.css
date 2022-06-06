@@ -1,0 +1,33 @@
+/*#main div:nth-of-type(1){
+ background-color:red;
+}
+#main div:nth-of-type(2){
+ background-color:yellow;
+}
+#main div:nth-of-type(3){
+ background-color:lime;
+}
+#main div{
+  width: 30px;
+  height: 30px;
+  border: 2px solid black;
+}*/
+body{
+  background-color: beige;
+}
+#main{
+  margin: 50px;
+}
+img{
+  width:100%;
+}
+#main div{
+  border: 2px solid black;
+  border-radius: 5px;
+  margin-bottom: 50px;
+  background-color:seagreen
+}
+div p:first-of-type{
+  text-align: center;
+}
+
