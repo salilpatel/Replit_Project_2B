@@ -1,0 +1,111 @@
+body{
+  font: 300 16px/22px "Lato", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  margin: 0px;
+  letter-spacing: .5px;
+}
+
+
+.heading{
+  background-color: #293f50;
+  color: white;
+  display: grid;
+  grid-template-row:1fr 2fr;
+  text-align: center;
+}
+.topHeading{
+  display: grid;
+  grid-template-columns:repeat(2,1fr);
+  padding-top: 5px;
+}
+.topHeading div:first-of-type{
+  margin-left: 450px;
+  margin-right: 150px;  
+  text-align: left;
+}
+.topHeading h1{
+  margin-top: 0px;
+  border-top: 4px solid #648880;
+  font-size: 48px;
+  font-weight: 100;
+  line-height: 44px;
+  padding: 40px 0 22px 0; 
+}
+.topHeading div:last-of-type{
+  margin-right: 450px;
+  text-align: right;
+}
+.topHeading a, .footer a{
+  text-decoration: none;
+  color: white;
+  padding-left: 10px;
+}
+.topHeading a:hover, .footer a:hover{
+  color:#648880;
+}
+
+.bottomHeading{
+  font-size: 24px;
+  font-weight: 100;
+  padding-bottom: 100px;
+}
+.bottomHeading button{
+  color: white;
+  background-color: #293f50;
+  border-color: white;
+  border-radius: 5px;
+  padding: 15px;
+  cursor: pointer;
+}
+.bottomHeading button:hover{
+  color:  #293f50;
+  background-color: white;
+  border-color: #293f50;
+  border-radius: 5px;
+  padding: 15px;
+}
+
+.content{
+  background-color: white;
+  margin: 0px 450px 0px 450px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  padding: 60px 0px 40px 0px;
+  width: 960px;
+}
+.content div{
+  display: block;
+}
+.content img{
+  border-radius: 5px;
+  display: block;
+  margin-bottom: 22px;
+  max-width: 100%;
+  height: 200px;
+  width: 100%;
+}
+.content a{
+  text-decoration: none;
+  color: black;
+}
+.content, .content div:first-child, .content div:last-child{
+  padding: 0px 15px 0px 15px;
+}
+
+
+.footer{
+  background-color: #293f50;
+  color: white;
+  display: grid;
+  grid-template-row:1fr 1fr;
+  padding: 20px 0px 20px 0px;
+  margin-top: 50px;
+}
+.footer div:first-child{
+  margin-left: 450px;
+  text-align: left;
+  color: #648880;
+}
+.footer div:last-child{
+  margin-right: 450px;
+  text-align: right;
+}
