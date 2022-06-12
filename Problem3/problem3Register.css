@@ -1,0 +1,88 @@
+body{
+  font: 300 16px/22px "Lato", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  margin: 0px;
+  letter-spacing: .5px;
+}
+
+.heading{
+  background-color: #293f50;
+  color: white;
+  display: grid;
+  grid-template-columns:1fr 1fr;
+  padding-top: 5px;
+}
+.heading div:first-child{
+  text-align:left;
+  margin: 0px 100px 0px 500px;
+  border-top: 4px solid #648880;
+  padding-top: 50px;
+}
+.heading div:last-child{
+  text-align: right;
+  margin: 0px 500px 0px 0px;
+  padding-top: 60px;
+}
+.heading h1{
+  margin-top: 0px;
+  font-size: 48px;
+  font-weight: 100;
+  line-height: 44px;
+}
+.heading a, .footer a{
+  text-decoration: none;
+  color: white;
+  padding-left: 10px;
+}
+.heading a:hover, .footer a:hover{
+  color:#648880;
+}
+
+.intro{
+  background: #cbe2c1;
+  background: linear-gradient(to right, #a1d3b0, #f6f1d3);
+  padding: 20px 480px 20px 480px;
+  text-align: center;
+}
+.intro h1{
+  font-size: 36px;
+  line-height: 44px;
+  margin-bottom: 22px;
+}
+.intro p{
+  font-size: 21px;
+  line-height: 33px;
+  margin-bottom: 22px;
+}
+
+
+
+
+
+.footer{
+  background-color: #293f50;
+  color: white;
+  display: grid;
+  grid-template-row:1fr 1fr;
+  padding: 20px 0px 20px 0px;
+  margin-top: 50px;
+}
+.footer div:first-child{
+  margin-left: 450px;
+  text-align: left;
+  color: #648880;
+}
+.footer div:last-child{
+  margin-right: 450px;
+  text-align: right;
+}
+
+
+
+.body{
+  margin: 50px 480px 0px 480px;
+  display: grid;
+  grid-template-columns:2fr 1fr;
+}
+.body div:last-child{
+  padding: 0px 15px 0px 15px;
+}
